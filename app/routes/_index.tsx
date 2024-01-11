@@ -45,7 +45,7 @@ export default function Index() {
             >
               <Link
                 key={`LinkTo${movie.id}`}
-                to={`/movies/${movie.id}/comments`}
+                to={`/movie/${movie.id}/comments`}
                 prefetch="intent"
                 className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
               >
@@ -59,7 +59,7 @@ export default function Index() {
               <div className="flex flex-1 flex-col p-4 sm:p-6">
                 <h2 className="mb-2 text-lg font-semibold text-gray-800">
                   <Link
-                    to={`/movies/${movie.id}/comments`}
+                    to={`/movie/${movie.id}/comments`}
                     prefetch="intent"
                     className="transition duration-100 hover:text-indigo-500 active:text-indigo-600"
                   >
